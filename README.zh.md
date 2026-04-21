@@ -36,12 +36,12 @@
 </div>
 <hr>
 
-[English](./README.md)
-
-<hr>
-
 maslink
 ===
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
+[![english](https://jaywcjlove.github.io/sb/lang/english.svg)](README.md)
 
 `maslink` 是一个很小的静态跳转页，用来把普通的 `https://` 链接转换回 Apple App Store 的原生深链接。
 
