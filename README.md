@@ -47,6 +47,46 @@ maslink
 
 GitHub README previews often strip custom protocols such as `macappstore://`, which makes direct Mac App Store links unclickable. This project provides a normal `https://` URL that can be used in README files and then converted back into a native App Store deep link in the browser.
 
+## Security Model / Trust Boundary
+
+`maslink` is a static redirect helper, not a package downloader, installer, update service, or dependency distribution channel.
+
+What it does:
+
+- Accept `id`, `platform`, and optional locale query parameters.
+- Build an App Store deep link or Apple web fallback URL in the browser.
+- Attempt a client-side redirect.
+
+What it does not do:
+
+- Download executable files, archives, or installers from GitHub or third-party servers.
+- Inject third-party scripts, ads, trackers, or package manager dependencies.
+- Proxy App Store traffic through a backend service.
+
+Trust boundary:
+
+- A user must trust the hosted `maslink` page to generate only the expected Apple App Store target URL.
+- This means `maslink` introduces an additional redirect trust point compared with linking directly to an App Store URL.
+- That risk is real, but it is different from a classic software supply-chain attack because this project does not ship runtime dependencies or distribute binaries.
+
+Threats this project can help with:
+
+- GitHub README stripping custom protocols such as `macappstore://`.
+- Providing a clickable HTTPS entry point that still opens the App Store natively.
+
+Threats this project does not solve:
+
+- A compromised hosting account or repository changing the redirect target.
+- DNS, CDN, or static hosting compromise.
+- User trust decisions about whether the hosted redirect page operator is trustworthy.
+
+Ways to reduce trust risk:
+
+- Self-host the static page if you need full control over the redirect surface.
+- Keep the project dependency-free and static.
+- Keep redirect logic small and auditable.
+- Restrict generated targets to Apple App Store deep links and Apple web fallback URLs only.
+
 ## Use Case
 
 Instead of linking to:
