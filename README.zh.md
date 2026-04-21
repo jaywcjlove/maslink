@@ -149,11 +149,20 @@ https://apps.apple.com/<LOCALE>/app/id<ID>
 
 ## 部署
 
-这个仓库就是一个纯静态页面，适合直接部署到 GitHub Pages。
+这个仓库就是一个纯静态页面。
 
-默认入口文件是 [docs/index.html](/Users/wong/git/github/maslink/docs/index.html)。
+如果你要自己部署，只需要把 `docs/` 目录中的内容作为静态文件发布出去：
 
-## 示例
+- `docs/index.html`
+- `docs/data.json`
+- `docs/appicon/*`
 
-- macOS： [打开示例](https://jaywcjlove.github.io/maslink/?id=6758053530&l=cn&platform=mac)
-- iOS： [打开示例](https://jaywcjlove.github.io/maslink/?id=6758053530&l=cn&platform=ios)
+保持这些文件的相对目录结构不变，并把 `index.html` 暴露在站点根路径或某个子路径下即可。
+
+如果使用 GitHub Pages，发布目录直接选择 `/docs`。
+
+示例：
+
+```text
+https://你的域名/路径/?id=6758053530&platform=mac
+```

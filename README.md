@@ -150,11 +150,20 @@ https://apps.apple.com/<LOCALE>/app/id<ID>
 
 ## Deploy
 
-This repository is designed to work as a plain static site, for example with GitHub Pages.
+This repository is a plain static site.
 
-The default entry is [docs/index.html](/Users/wong/git/github/maslink/docs/index.html).
+To self-host it, deploy the contents of `docs/` as static files:
 
-## Example
+- `docs/index.html`
+- `docs/data.json`
+- `docs/appicon/*`
 
-- macOS: [Open Example](https://jaywcjlove.github.io/maslink/?id=6758053530&l=cn&platform=mac)
-- iOS: [Open Example](https://jaywcjlove.github.io/maslink/?id=6758053530&l=cn&platform=ios)
+Keep the relative file layout unchanged, and expose `index.html` at the site root or a subpath.
+
+For GitHub Pages, set the publish folder to `/docs`.
+
+Example:
+
+```text
+https://YOUR-DOMAIN/PATH/?id=6758053530&platform=mac
+```
