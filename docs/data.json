@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Scap",
+    "platform": "macOS",
+    "id": 6758053530,
+    "icon": "./appicon/scap.png",
+    "path": "https://wangchujiang.com/scap/"
+  },
+  {
+    "name": "Screen Test",
+    "platform": "macOS",
+    "id": 6757317079,
+    "icon": "./appicon/screen-test.png",
+    "path": "https://wangchujiang.com/screen-test/"
+  },
+  {
+    "name": "Deskmark",
+    "platform": "macOS",
+    "id": 6755948110,
+    "icon": "./appicon/deskmark.png",
+    "path": "https://wangchujiang.com/deskmark/"
+  },
+  {
+    "name": "Keyzer",
+    "platform": "macOS",
+    "id": 6500434773,
+    "icon": "./appicon/keyzer.png",
+    "path": "https://wangchujiang.com/keyzer/"
+  },
+  {
+    "name": "Vidwall Hub",
+    "platform": "macOS",
+    "icon": "./appicon/vidwall-hub.png",
+    "path": "https://wangchujiang.com/vidwall-hub/"
+  },
+  {
+    "name": "VidCrop",
+    "platform": "macOS",
+    "id": 6752624705,
+    "icon": "./appicon/vidcrop.png",
+    "path": "https://wangchujiang.com/vidcrop/"
+  },
+  {
+    "name": "Vidwall",
+    "platform": "macOS",
+    "id": 6747587746,
+    "icon": "./appicon/vidwall.png",
+    "path": "https://wangchujiang.com/vidwall/"
+  },
+  {
+    "name": "Mousio Hint",
+    "platform": "macOS",
+    "icon": "./appicon/mousio-hint.png",
+    "path": "https://wangchujiang.com/mousio-hint/"
+  },
+  {
+    "name": "Mousio",
+    "platform": "macOS",
+    "id": 6746747327,
+    "icon": "./appicon/mousio.png",
+    "path": "https://wangchujiang.com/mousio/"
+  },
+  {
+    "name": "Musicer",
+    "platform": "macOS",
+    "id": 6745227444,
+    "icon": "./appicon/musicer.png",
+    "path": "https://wangchujiang.com/musicer/"
+  },
+  {
+    "name": "Audioer",
+    "platform": "macOS",
+    "id": 6743841447,
+    "icon": "./appicon/audioer.png",
+    "path": "https://wangchujiang.com/audioer/"
+  },
+  {
+    "name": "File Sentinel",
+    "platform": "macOS",
+    "id": 6744690194,
+    "icon": "./appicon/file-sentinel.png",
+    "path": "https://wangchujiang.com/file-sentinel/"
+  },
+  {
+    "name": "Focus Cursor",
+    "platform": "macOS",
+    "id": 6743495172,
+    "icon": "./appicon/focus-cursor.png",
+    "path": "https://wangchujiang.com/focus-cursor/"
+  },
+  {
+    "name": "Videoer",
+    "platform": "macOS",
+    "id": 6742680573,
+    "icon": "./appicon/videoer.png",
+    "path": "https://wangchujiang.com/videoer/"
+  },
+  {
+    "name": "KeyClicker",
+    "platform": "macOS",
+    "id": 6740425504,
+    "icon": "./appicon/key-clicker.png",
+    "path": "https://wangchujiang.com/key-clicker/"
+  },
+  {
+    "name": "DayBar",
+    "platform": "macOS",
+    "id": 6739052447,
+    "icon": "./appicon/daybar.png",
+    "path": "https://wangchujiang.com/daybar/"
+  },
+  {
+    "name": "Iconed",
+    "platform": "macOS",
+    "id": 6739444407,
+    "icon": "./appicon/iconed.png",
+    "path": "https://wangchujiang.com/iconed/"
+  },
+  {
+    "name": "Menuist",
+    "platform": "macOS",
+    "id": 6737160756,
+    "icon": "./appicon/menuist.png",
+    "path": "https://wangchujiang.com/rightmenu-master/"
+  },
+  {
+    "name": "Paste Quick",
+    "platform": "macOS",
+    "id": 6723903021,
+    "icon": "./appicon/paste-quick.png",
+    "path": "https://wangchujiang.com/paste-quick/"
+  },
+  {
+    "name": "Quick RSS",
+    "platform": "macOS",
+    "id": 6670696072,
+    "icon": "./appicon/quick-rss.png",
+    "path": "https://wangchujiang.com/quick-rss/"
+  },
+  {
+    "name": "Web Serve",
+    "platform": "macOS",
+    "id": 6670167443,
+    "icon": "./appicon/web-serve.png",
+    "path": "https://wangchujiang.com/web-serve/"
+  },
+  {
+    "name": "Copybook Generator",
+    "platform": "macOS",
+    "id": 6503953628,
+    "icon": "./appicon/copybook-generator.png",
+    "path": "https://wangchujiang.com/copybook-generator/"
+  },
+  {
+    "name": "DevTutor for SwiftUI",
+    "icon": "./appicon/devtutor.png",
+    "platform": "macOS/iOS",
+    "id": 6471227008,
+    "path": "https://wangchujiang.com/devtutor/"
+  },
+  {
+    "name": "Regex Mate",
+    "platform": "macOS/iOS",
+    "icon": "./appicon/regex-mate.png",
+    "id": 6479819388,
+    "path": "https://wangchujiang.com/regex-mate/"
+  },
+  {
+    "name": "Time Passage",
+    "platform": "macOS/iOS",
+    "icon": "./appicon/time-passage.png",
+    "id": 6479194014,
+    "path": "https://wangchujiang.com/time-passage/"
+  },
+  {
+    "name": "Iconize Folder",
+    "platform": "macOS",
+    "icon": "./appicon/iconize-folder.png",
+    "id": 6478772538,
+    "path": "https://wangchujiang.com/IconizeFolder/"
+  },
+  {
+    "name": "TextSound Saver",
+    "platform": "macOS/iOS",
+    "id": 6478511402,
+    "icon": "./appicon/textsound-saver.png",
+    "path": "https://wangchujiang.com/TextSoundSaver/"
+  },
+  {
+    "name": "Create Custom Symbols",
+    "platform": "macOS",
+    "id": 6476924627,
+    "icon": "./appicon/create-custom-symbols.png",
+    "path": "https://wangchujiang.com/create-custom-symbols/"
+  },
+  {
+    "name": "DevHub",
+    "platform": "macOS",
+    "id": 6476452351,
+    "icon": "./appicon/devhub.png",
+    "path": "https://wangchujiang.com/DevHub/"
+  },
+  {
+    "name": "Resume Revise",
+    "platform": "macOS",
+    "id": 6476400184,
+    "icon": "./appicon/resume-revise.png",
+    "path": "https://wangchujiang.com/ResumeRevise/"
+  },
+  {
+    "name": "PaletteGenius",
+    "platform": "macOS",
+    "id": 6472593276,
+    "icon": "./appicon/palette-genius.png",
+    "path": "https://wangchujiang.com/palette-genius/"
+  },
+  {
+    "name": "Symbol Scribe",
+    "platform": "macOS",
+    "id": 6470879005,
+    "icon": "./appicon/symbol-scribe.png",
+    "path": "https://wangchujiang.com/symbol-scribe/"
+  }
+]
