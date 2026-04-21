@@ -240,7 +240,7 @@
       (function () {
         var params = new URLSearchParams(window.location.search);
         var id = (params.get("id") || "").trim();
-        var locale = (params.get("l") || params.get("lang") || "us").trim();
+        var locale = (params.get("l") || params.get("lang") || "").trim().toLowerCase();
         var platform = (params.get("platform") || "mac").trim().toLowerCase();
 
         var normalizedPlatform = platform;
@@ -259,6 +259,39 @@
         var localeEl = document.getElementById("locale");
         var deepLinkEl = document.getElementById("deep-link");
         var webLinkEl = document.getElementById("web-link");
+
+        function detectLocale() {
+          var candidates = [];
+
+          if (Array.isArray(navigator.languages)) {
+            candidates = candidates.concat(navigator.languages);
+          }
+          if (navigator.language) {
+            candidates.push(navigator.language);
+          }
+
+          for (var i = 0; i < candidates.length; i += 1) {
+            var value = String(candidates[i] || "").trim();
+            if (!value) {
+              continue;
+            }
+
+            var parts = value.replace(/_/g, "-").split("-");
+            if (parts.length > 1 && /^[a-z]{2}$/i.test(parts[1])) {
+              return parts[1].toLowerCase();
+            }
+
+            if (/^[a-z]{2}$/i.test(parts[0])) {
+              return parts[0].toLowerCase();
+            }
+          }
+
+          return "us";
+        }
+
+        if (!locale) {
+          locale = detectLocale();
+        }
 
         function setText(idOrEl, value) {
           var el = typeof idOrEl === "string" ? document.getElementById(idOrEl) : idOrEl;
