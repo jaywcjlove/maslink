@@ -469,6 +469,7 @@
             candidates.push(navigator.language);
           }
 
+          // First pass: look for locale codes with region (e.g., 'zh-CN' -> 'cn')
           for (var i = 0; i < candidates.length; i += 1) {
             var value = String(candidates[i] || "").trim();
             if (!value) {
@@ -476,15 +477,13 @@
             }
 
             var parts = value.replace(/_/g, "-").split("-");
+            // If has region code (e.g., 'zh-CN' -> parts[1] = 'CN')
             if (parts.length > 1 && /^[a-z]{2}$/i.test(parts[1])) {
               return parts[1].toLowerCase();
             }
-
-            if (/^[a-z]{2}$/i.test(parts[0])) {
-              return parts[0].toLowerCase();
-            }
           }
 
+          // Fallback: return default locale
           return "us";
         }
 
