@@ -1,5 +1,12 @@
 [
   {
+    "name": "Zipora",
+    "platform": "macOS",
+    "id": 6766860898,
+    "icon": "./appicon/zipora.png",
+    "path": "https://wangchujiang.com/zipora/"
+  },
+  {
     "name": "Scap",
     "platform": "macOS",
     "id": 6758053530,
