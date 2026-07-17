@@ -2,7 +2,6 @@
   {
     "name": "DockLift",
     "platform": "macOS",
-    "id": 6766860898,
     "icon": "./appicon/dock-lift.png",
     "path": "https://wangchujiang.com/dock-lift/"
   },
